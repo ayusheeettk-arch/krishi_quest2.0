@@ -1,11 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { 
-  Home, Calendar, Award, Users, ShoppingCart, Brain, Trophy, Network, 
-  Scan, User, Bell, Search, Upload, Camera, X, Settings, LogOut,
-  Star, MessageCircle, ThumbsUp, Share2, Plus, Filter, MapPin,
-  TrendingUp, TrendingDown, Clock, CheckCircle, AlertCircle,
-  Mail, Phone, Edit, Save, Cancel, Eye, Download, Heart
-} from 'lucide-react';
+import { Home, Calendar, Award, Users, ShoppingCart, Brain, Trophy, Network, Scan, User, Bell, Search, Upload, Camera, X, Settings, LogOut, Star, MessageCircle, ThumbsUp, Share2, Plus, Filter, MapPin, TrendingUp, TrendingDown, Clock, CheckCircle, AlertCircle, Mail, Phone, CreditCard as Edit, Save, Ambulance as Cancel, Eye, Download, Heart } from 'lucide-react';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
